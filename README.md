@@ -31,14 +31,14 @@ df.merge()
 # Grouping
 df.groupby()
 🚧 Challenges
-KeyError during merge
-Column mismatch
-Date format issues
-✅ Solutions
-Standardized column names
-Checked dataset structure
-Used proper datetime conversion
-📈 Output
-Cleaned dataset
-Aggregated insights
-Visualizations
+1. KeyError during merge
+2. Column mismatch
+3. Date format issues
+✅ **Solutions**
+1. Standardized column names
+2. Checked dataset structure
+3. Used proper datetime conversion
+📈 **Output**
+1.Cleaned dataset
+2.Aggregated insights
+3.Visualizations
