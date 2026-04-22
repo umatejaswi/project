@@ -4,14 +4,16 @@
 This project focuses on transforming raw trading and sentiment datasets into a clean, structured, and analysis-ready format. It includes data cleaning, transformation, merging, and exploratory analysis.
 
 ***🎯 Key Objectives***
-Ensure data quality and consistency
-Integrate multiple datasets
-Perform exploratory data analysis
-Generate meaningful insights
+1.Ensure data quality and consistency
+2.Integrate multiple datasets
+3.Perform exploratory data analysis
+4.Generate meaningful insights
 
 ***📂 Project Structure ***
-├── DATA PREPARATION.ipynb   # Main analysis notebook
-├── README.md                # Project documentation
+├── DATA PREPARATION.ipynb   
+# Main analysis notebook
+├── README.md               
+# Project documentation
 
 ***⚙️ Tech Stack***
 Python
@@ -39,24 +41,24 @@ df.groupby()
 
 
 ***📈 Key Insights***
-Classification-based differences in leverage
-Enhanced analysis using sentiment integration
-Structured dataset ready for advanced analytics
+1.Classification-based differences in leverage
+2.Enhanced analysis using sentiment integration
+3.Structured dataset ready for advanced analytics
 
 
 ***🚧 Challenges***
-Merge errors due to column mismatch
-Date formatting inconsistencies
-Missing data handling
+1.Merge errors due to column mismatch
+2.Date formatting inconsistencies
+3.Missing data handling
 
 
 ***✅ Solutions***
-Standardized column names
-Applied consistent datetime formatting
-Validated dataset before operations
+1.Standardized column names
+2.Applied consistent datetime formatting
+3.Validated dataset before operations
 
 
 ***🚀 Future Enhancements***
-Machine learning models
-Interactive dashboards
-Automated data pipelines
+1.Machine learning models
+2.Interactive dashboards
+3.Automated data pipelines
