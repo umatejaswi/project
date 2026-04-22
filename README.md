@@ -1,44 +1,46 @@
-📊 Data Preparation & Analysis Project
-📌 Overview
-
-This project focuses on cleaning, preprocessing, and preparing raw data for analysis. It involves handling missing values, merging datasets, and performing basic exploratory data analysis.
-
-🎯 Objectives
-Clean raw data
-Convert data into usable format
-Merge datasets
-Perform basic analysis
-📂 Project Structure
-DATA PREPARATION.ipynb   # Main notebook
-README.md                # Project documentation
-⚙️ Technologies Used
+***📊 Data Preparation & Analysis Project**
+***🔍 Overview***
+This project focuses on transforming raw trading and sentiment datasets into a clean, structured, and analysis-ready format. It includes data cleaning, transformation, merging, and exploratory analysis.
+***🎯 Key Objectives***
+Ensure data quality and consistency
+Integrate multiple datasets
+Perform exploratory data analysis
+Generate meaningful insights
+***📂 Project Structure ***
+├── DATA PREPARATION.ipynb   # Main analysis notebook
+├── README.md                # Project documentation
+***⚙️ Tech Stack***
 Python
 Pandas
 NumPy
 Matplotlib
-🧹 Data Preprocessing Steps
-Handling missing values
-Converting timestamps to datetime
-Feature engineering
-Merging datasets
-📊 Key Operations
-# Convert date
+***Jupyter Notebook***
+🛠️ Data Processing Workflow
+Data Cleaning
+Data Type Conversion
+Feature Engineering
+Dataset Merging
+Exploratory Analysis
+🔗 Key Code Snippets
+# Convert timestamps
 pd.to_datetime()
-
 # Merge datasets
 df.merge()
-
-# Grouping
+# Aggregation
 df.groupby()
-🚧 Challenges
-1. KeyError during merge
-2. Column mismatch
-3. Date format issues
-✅ **Solutions**
-1. Standardized column names
-2. Checked dataset structure
-3. Used proper datetime conversion
-📈 **Output**
-1.Cleaned dataset
-2.Aggregated insights
-3.Visualizations
+***📈 Key Insights***
+Classification-based differences in leverage
+Enhanced analysis using sentiment integration
+Structured dataset ready for advanced analytics
+***🚧 Challenges***
+Merge errors due to column mismatch
+Date formatting inconsistencies
+Missing data handling
+***✅ Solutions***
+Standardized column names
+Applied consistent datetime formatting
+Validated dataset before operations
+***🚀 Future Enhancements***
+Machine learning models
+Interactive dashboards
+Automated data pipelines
